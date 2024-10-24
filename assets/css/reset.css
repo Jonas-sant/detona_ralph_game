@@ -1,0 +1,26 @@
+@font-face{
+    font-family: "Padrao";
+    src: url(../font/PressStart2P-Regular.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+    font-family: "Padrao";
+    text-decoration:none;
+    color: rgb(66, 65, 65);
+}
+
+.container{
+    max-width: 80%;
+    margin:auto;
+}
+
+/*  Classe para centralizar e justificar os elementos flex */
+.centralize{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
